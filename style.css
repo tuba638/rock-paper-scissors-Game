@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    background-color: midnightblue;
+    color: white ;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem; 
+}
+
+.choice{
+    background-color: black;
+    height: 200px; 
+    width: 200px; 
+    border-radius: 50%;
+}
+
+
+.choice *{
+    /* all emojis come under here */
+    font-size: 100px;
+    text-align: center;
+    line-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;;
+}
+
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    border: 5px solid aqua ;
+    /* box-sizing: border-box; */
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    background-color: midnightblue;
+    color: white;
+    font-size: 2rem;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 0.8rem ;
+}
+
